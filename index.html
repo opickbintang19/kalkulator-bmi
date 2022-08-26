@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+        <div>
+            <h2>Kalkulator BMI</h2>
+            <p class="text">Berat Badan</p>
+            <input id="berat" type="numbers" placeholder="Contoh : 80">
+            <p class="text">Tinggi Badan</p>
+            <input id="tinggi" type="numbers" placeholder="Contoh : 170">
+
+            <!-- output -->
+            <h4 id="heading"></h4>
+            <p id="bmi-output"></p>
+            <p id="message"></p>
+
+            <!-- button -->
+            <button onclick="calculateBMI()" id="btn">Submit</button>
+            <button onclick="reload()" id="reload">Hapus</button>
+        </div>
+        
+
+        
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
