@@ -42,7 +42,7 @@ h2{
 
 #berat:focus,#tinggi:focus{
     border-bottom: 2px solid #341f97;
-    width: 300px;
+    width: 260px;
     transition: 0.5s;
 }
 
@@ -80,8 +80,17 @@ h2{
     transition: 0.5s ease-in-out;
 }
 
-@media (min-width:400px){
-    div{
-        width:300px;
+@media screen and (max-width: 500px) {
+    .text{
+        text-align: left;
+        margin-left: 50px;
+    }
+    div {
+        width: 300px;
+    }
+    #berat:focus,#tinggi:focus{
+        border-bottom: 2px solid #341f97;
+        width: 230px;
+        transition: 0.5s;
     }
 }
